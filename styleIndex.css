@@ -1,0 +1,38 @@
+body{
+    background-color: blue;
+    color: yellow;
+}
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    margin-right: 200px;
+    animation-duration: 0s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes moving {
+    from {
+        margin-right: 100px;
+    }
+    to {
+        margin-right: 300px;
+    }
+}
